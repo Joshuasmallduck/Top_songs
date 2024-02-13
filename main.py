@@ -2,8 +2,8 @@ import requests
 import base64
 import json
 
-client_id = "b9d24dc21ace4253834492792a8b7150"
-client_secret = "2af7e2c4ca2342908dfc8602c0c4d200"
+client_id = #Your client id
+client_secret = #Your secret key
 
 def get_token():
     auth_string = client_id + ":" + client_secret
